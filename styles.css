@@ -1,0 +1,70 @@
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #d6e7e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #3b0a0a;
+  color: #fbd38d;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  width: 300px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+label {
+  display: block;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+
+select, input[type="number"] {
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  background-color: #fef3c7;
+  border: none;
+  border-radius: 6px;
+  width: 100px;
+}
+
+.buttons {
+  margin-top: 1.5rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  font-size: 1rem;
+  background-color: #fef3c7;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background-color: #fcd34d;
+}
+
+.results {
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.total {
+  margin-top: 1rem;
+  font-weight: bold;
+  font-size: 1.8rem;
+}
